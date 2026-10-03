@@ -2,35 +2,28 @@
 
 const CONFIG = {
   github: {
-    username: 'fenli', // Your GitHub org/user name. (This is the only required config)
+    username: 'fenli',
   },
-  /**
-   * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/arifszn/arifszn.github.io, set base to '/'.
-   * If you are deploying to https://<USERNAME>.github.io/<REPO_NAME>/,
-   * for example your repository is at https://github.com/arifszn/portfolio, then set base to '/portfolio/'.
-   */
   base: '/',
   projects: {
     github: {
-      display: true, // Display GitHub projects?
+      display: true,
       header: 'Github Projects',
-      mode: 'automatic', // Mode can be: 'automatic' or 'manual'
+      mode: 'automatic',
       automatic: {
-        sortBy: 'stars', // Sort projects by 'stars' or 'updated'
-        limit: 8, // How many projects to display.
+        sortBy: 'stars',
+        limit: 4,
         exclude: {
-          forks: false, // Forked projects will not be displayed if set to true.
-          projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
+          forks: false,
+          projects: [],
         },
       },
       manual: {
-        // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: [],
       },
     },
     external: {
       header: 'My Projects',
-      // To hide the `External Projects` section, keep it empty.
       projects: [
         {
           title: 'Project Name',
@@ -51,48 +44,44 @@ const CONFIG = {
       ],
     },
   },
-  seo: { title: 'Portfolio of Ariful Alam', description: '', imageURL: '' },
+  seo: { title: 'Portfolio of Steven Lewi', description: '', imageURL: '' },
   social: {
-    linkedin: 'ariful-alam',
-    x: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: 'stevenlewi',
+    x: '',
+    mastodon: '',
     researchGate: '',
     facebook: '',
     instagram: '',
     reddit: '',
     threads: '',
-    youtube: '', // example: 'pewdiepie'
+    youtube: '',
     udemy: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
-    stackoverflow: '', // example: '1/jeff-atwood'
+    medium: 'fenli',
+    dev: '',
+    stackoverflow: '',
     discord: '',
     telegram: '',
-    website: 'https://www.arifszn.com',
+    website: 'https://www.stevenlewi.id',
     phone: '',
     email: '',
   },
   resume: {
-    fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+    fileUrl: 'https://link.stevenlewi.id/resume',
   },
   skills: [
-    'PHP',
-    'Laravel',
-    'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
+    'Kotlin',
+    'Java',
+    'Dart',
+    'Android',
+    'iOS',
+    'Flutter',
     'MySQL',
     'PostgreSQL',
     'Git',
     'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
+    'Kubernetes',
   ],
   experiences: [
     {
