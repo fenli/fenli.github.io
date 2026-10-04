@@ -116,7 +116,7 @@ const CONFIG = {
   educations: [
     {
       institution: 'Brawijaya University, Indonesia',
-      degree: 'Bachelor\'s Degree',
+      degree: 'Electrical Engineering Bachelor\'s Degree',
       from: '2006',
       to: '2012',
     },
