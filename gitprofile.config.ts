@@ -33,8 +33,7 @@ const CONFIG = {
         },
         {
           title: 'Tokopoket for Android (2015)',
-          description: 'Tokopoket is a pocket-sized marketplace in form of a native app.
-It\'s an e-commerce mobile application which combined with social-media features like timeline, real-time chat, follow other member, etc.',
+          description: 'Tokopoket is a pocket-sized marketplace in form of a native app. It\'s an e-commerce mobile application which combined with social-media features like timeline, real-time chat, follow other member, etc.',
           imageUrl: 'https://media.licdn.com/dms/image/v2/D562DAQFeVOSilvtYHw/profile-treasury-image-shrink_160_160/B56ZddVZtJHoAo-/0/1749617581851?e=1791702000&v=beta&t=BxFWrWWIPJSomKTE4UgoLROX7j8wM8GKdNbiUBS2JPQ',
           link: 'https://web.archive.org/web/20150623134656/https://play.google.com/store/apps/details?id=com.tokopoket.tokopoket',
         },
